@@ -1,36 +1,44 @@
 body {
   background-color: #dbdbdb;
-  font-family: "Times New Roman", Times, serif, sans-serif;
-  text-align: center;
 }
 
-section {
-  background-color: white;
-  padding: 20px;
-  margin: 15px;
-  border-radius: 8px;
+h1 {
+  font-size: 48px;
 }
 
-h2 {
-  color: #333333;
+.paragrafo-m {
+  color: #666666;
+  font-size: 28px;
 }
 
-p {
+p{
   color: #666666;
   font-size: 18px;
-  line-height: 1.6;
 }
 
 .caixa-contato {
   display: flex;
-  justify-content: center;
-  gap: 50px;
 }
 
 .caixa-contato a {
-  background-color: #007bff;
-  color: white;
+  background-color: #535353;
+  color : #ffffff;
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
+}
+
+.caixa-informacoes {
+  margin: 20px;
+}
+
+.caixa-principal {
+  display: flex;
+  margin: 100px 70px;
+}
+
+.foto-perfil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
